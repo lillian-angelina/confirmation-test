@@ -1,0 +1,49 @@
+header {
+  display: none;
+}
+
+.thanks__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* ビューポートの高さに合わせる */
+  background-color: #fff; /* 背景色 */
+  position: relative;
+  text-align: center; /* テキストを中央に配置 */
+  max-width: 1512px;
+  max-height: 720px;
+  margin: auto;
+}
+
+.thanks__title {
+  font-size: 19em; /* 大きなフォントサイズ */
+  font-family: Constantia;
+  color: #8B79690D; /* テキストカラー */
+  margin: 0; /* マージンをリセット */
+  position: relative;
+  z-index: 1; /* 重なりを調整 */
+}
+
+.thanks__message {
+  font-size: 2.2rem; /* フォントサイズ */
+  color: #8B7969; /* テキストカラー */
+  position: absolute; /* 絶対配置で重ねる */
+  top: calc(50% - 2rem); /* タイトルの上に配置 */
+  left: 50%; /* 中央寄せ */
+  transform: translate(-50%, -100%); /* 中央寄せ調整 */
+  z-index: 0; /* タイトルの下に配置 */
+  font-weight: bold;
+}
+
+.thanks__button {
+  background-color: #82756A; /* ボタンの背景色 */
+  color: #fff; /* ボタンの文字色 */
+  padding: 10px 40px; /* ボタンの内側の余白 */
+  text-decoration: none; /* 下線を消す */
+  position: absolute; /* 絶対配置で重ねる */
+  bottom: 36%; /* 下部に配置 */
+  left: 50%; /* 中央寄せ */
+  transform: translateX(-50%); /* 中央寄せ調整 */
+  z-index: 1; /* タイトルの上に配置 */
+}

@@ -1,0 +1,23 @@
+.header {
+    background: #000;
+    
+  }
+  
+  .header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #E0DFDE;
+  }
+  
+  .header__logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: Constantia;
+    color: #8B7969;
+  }
+  

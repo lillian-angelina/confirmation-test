@@ -1,0 +1,319 @@
+.contact-form__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.contact-form__heading {
+    font-size: 30px;
+    font-family: Constantia;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #8B7969;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    transform: scale(1.1);
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin: 20px;
+}
+
+.form__group-title {
+    flex: 1;
+    text-align: left;
+    font-size: 20px;
+    font-family: Constantia;
+    font-weight: 400;
+}
+
+.form__label--required {
+    color: red;
+    font-size: 20px;
+}
+
+.form__input--text {
+    width: 30%;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-family: Constantia;
+    text-align: left;
+    align-items: center;
+    font-weight: 400;
+    border: 1px solid #8B7969;
+    resize: none; /* ユーザーによるサイズ変更を無効化 */
+    overflow: hidden;
+}
+
+.form__label--item_1 { /* お名前 */
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+    color: #8B7969;
+    margin-right: 140px;
+    margin-left: 20%;
+}
+
+.form__input--text_1 { /* 空欄 山田 */
+    margin-left: 130px;
+    padding: 12px 70px 12px 30px;
+    font-size: 18px;
+    font-family: Constantia;
+    text-align: left;
+    align-items: center;
+    font-weight: 400;
+    border: 1px solid #8B7969;
+    border: none;
+    background: #F4F4F4;
+    opacity: 0.6;
+}
+
+.form__input--text_2 { /* 空欄 太郎 */
+    margin-left: 60px;
+    padding: 12px 70px 12px 30px;
+    font-size: 18px;
+    font-family: Constantia;
+    text-align: left;
+    align-items: center;
+    font-weight: 400;
+    border: 1px solid #8B7969;
+    border: none;
+    background: #F4F4F4;
+    opacity: 0.6;
+}
+
+.form__label--item_2 { /* 性別 */
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+    color: #8B7969;
+    margin-right: 240px;
+}
+
+.form__input--gender { /* ラジオボタン */
+    margin-left: 70px;
+    font-size: 20px;
+    font-family: Constantia;
+    text-align: left;
+    font-weight: 400;
+    border: 1px solid #8B7969;
+}
+
+.form__label--item_3 { /* メールアドレス */
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+    color: #8B7969;
+    margin-right: 100px;
+}
+
+.form__input--text_3 { /* メール input */
+    margin-left: 90px;
+    padding: 12px 60px 12px 30px;
+    width: 670px;
+    font-size: 18px;
+    font-family: Constantia;
+    text-align: left;
+    align-items: center;
+    font-weight: 400;
+    border: 1px solid #8B7969;
+    border: none;
+    background: #F4F4F4;
+    opacity: 0.6;
+}
+
+.form__label--item_4 { /* 電話番号 */
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+    color: #8B7969;
+    margin-right: 200px;
+}
+
+.form__input--text_4-1 { /* 番号 1 */
+    margin-left: 50px;
+    margin-right: 10px;
+    padding: 12px 0;
+    font-size: 18px;
+    font-family: Constantia;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    border: 1px solid #8B7969;
+    border: none;
+    background: #F4F4F4;
+    opacity: 0.6;
+}
+
+.form__input--text_4-2 { /* 番号 2 */
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 12px 0px 12px 0px;
+    font-size: 18px;
+    font-family: Constantia;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    border: 1px solid #8B7969;
+    border: none;
+    background: #F4F4F4;
+    opacity: 0.6;
+}
+
+.form__input--text_4-3 { /* 番号 3 */
+    margin-left: 10px;
+    padding: 12px 0px 12px 0px;
+    font-size: 18px;
+    font-family: Constantia;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    border: 1px solid #8B7969;
+    border: none;
+    background: #F4F4F4;
+    opacity: 0.6;
+}
+
+.form__label--item_5 { /* 住所 */
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+    color: #8B7969;
+    margin-right: 200px;
+}
+
+.form__input--text_5 { /* 住所 input */
+    margin-left: 90px;
+    padding: 12px 60px 12px 30px;
+    width: 675px;
+    font-size: 18px;
+    font-family: Constantia;
+    text-align: left;
+    align-items: center;
+    font-weight: 400;
+    border: 1px solid #8B7969;
+    border: none;
+    background: #F4F4F4;
+    opacity: 0.6;
+}
+
+.form__label--item_6 { /* 建物名 */
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+    color: #8B7969;
+    margin-right: 180px;
+}
+
+.form__input--text_6 { /* 建物名 input */
+    margin-left: 90px;
+    padding: 12px 60px 12px 30px;
+    width: 675px;
+    font-size: 18px;
+    font-family: Constantia;
+    text-align: left;
+    align-items: center;
+    font-weight: 400;
+    border: 1px solid #8B7969;
+    border: none;
+    background: #F4F4F4;
+    opacity: 0.6;
+}
+
+.form__label--item_7 { /* お問い合わせの種類 */
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+    color: #8B7969;
+    margin-right: 75px;
+}
+
+.form__input--text_7 { /* お問い合わせの種類 input */
+    margin-left: 75px;
+    padding: 12px 60px 12px 30px;
+    width: 350px;
+    font-size: 18px;
+    font-family: Constantia;
+    text-align: left;
+    align-items: center;
+    font-weight: 400;
+    border: 1px solid #8B7969;
+    border: none;
+    background: #F4F4F4;
+    opacity: 0.4;
+}
+
+.form__label--item_8 { /* お問い合わせ内容 */
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+    color: #8B7969;
+    margin-right: 85px;
+}
+
+.form__input--text_8 { /* お問い合わせ内容 input */
+    margin-top: 100px;
+    margin-left: 85px;
+    padding: 20px 60px 100px 30px;
+    width: 675px;
+    font-size: 18px;
+    font-family: Constantia;
+    text-align: left;
+    align-items: center;
+    font-weight: 400;
+    border: 1px solid #8B7969;
+    border: none;
+    background: #F4F4F4;
+    opacity: 0.6;
+}
+
+.form__error {
+    color: #ff0000;
+    text-align: left;
+  }
+
+.form__button-submit {
+    margin-top: 130px;
+    padding: 10px 40px;
+    font-size: 20px;
+    text-align: center;
+    background: #82756A;
+    color: #fff;
+    border: none;
+}
+
+.form__label--item_1, .form__label--item_2,
+.form__label--item_3, .form__label--item_4,
+.form__label--item_5, .form__label--item_6,
+.form__label--item_7, .form__label--item_8 {
+    margin-left: 27%;
+}
+
+@media (max-width: 1280px) {
+    .container {
+        flex-direction: column; /* 画面が小さくなったら縦並び */
+    }
+}
